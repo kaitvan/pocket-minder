@@ -1,0 +1,25 @@
+:root {
+  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --color-white: #f9fdff;
+  --color-prink: #f54b89;
+  --color-orange: #feab03;
+  --color-green: #9bc53d;
+  --color-blue: #56beba;
+  --color-indigo: #516df5;
+  --color-violet: #6100ed;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
