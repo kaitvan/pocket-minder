@@ -1,0 +1,28 @@
+.main {
+  margin: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.h1 {
+  font-family: Outfit;
+  font-weight: 700;
+  font-size: 120px;
+  color: var(--color-blue);
+  line-height: 60%;
+}
+
+.text {
+  align-self: center;
+}
+
+.search-img {
+  width: 25vw;
+  align-self: center;
+}
+
+p {
+  font-size: 30px;
+  line-height: 140%;
+}
