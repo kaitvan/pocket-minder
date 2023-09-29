@@ -1,4 +1,58 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  margin: auto;
+  width: 90%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .pocket-minder {
   font-family: "Outfit", sans-serif;
   text-transform: uppercase;
+  color: var(--color-violet);
+  padding-left: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-orange);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.list a:hover {
+  border-bottom: 2px solid var(--color-orange);
+}
+
+.list {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.auth-button {
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+  color: var(--color-orange);
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.auth-button:hover {
+  border-bottom: 2px solid var(--color-orange);
 }
