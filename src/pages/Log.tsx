@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "./Log.module.css";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 interface Expense {
   id: string;
@@ -75,7 +77,7 @@ const Log = () => {
   useEffect(() => {
     getCategories();
     getExpenses();
-  });
+  }, [categories]);
 
   return (
     <div className={styles.container}>
@@ -84,12 +86,15 @@ const Log = () => {
         <button className={styles["add-expense-btn"]}>Add Expense</button>
       </div>
       <div className={styles.log}>
-        <div className={styles.filters}>
+        {/* <div className={styles.filters}>
           <div className={styles.filter}>
             <form autoComplete="off">
               <div className={styles["custom-select"]}>
                 <select>
-                  <option value="">Filter By Category</option>
+                  <option value="" id="default-select">
+                    Filter By Category
+                    <FontAwesomeIcon icon={faAngleDown} />
+                  </option>
                   <option value="auto">Auto & Transport</option>
                   <option value="food">Food & Drinks</option>
                   <option value="fun">Fun & Recreation</option>
@@ -108,7 +113,7 @@ const Log = () => {
             </form>
           </div>
         </div>
-        <hr></hr>
+        <hr></hr> */}
         <div>
           <table>
             <thead>

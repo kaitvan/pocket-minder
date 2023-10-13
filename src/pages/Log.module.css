@@ -47,6 +47,16 @@
   color: var(--color-white);
   text-transform: uppercase;
   position: relative;
+  min-width: 200px;
+}
+
+#default-select {
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom-select select {
+  appearance: none;
 }
 
 .custom-input {
