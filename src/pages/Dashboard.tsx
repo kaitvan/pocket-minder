@@ -30,7 +30,7 @@ const Dashboard = () => {
               <p className={styles.muted}>$160 total</p>
             </div>
           </div>
-          <div>
+          <div className={styles.available}>
             <p className={styles.bold}>$18.80</p>
             <p className={styles.muted}>available</p>
           </div>
@@ -45,7 +45,7 @@ const Dashboard = () => {
               <p className={styles.muted}>$200 total</p>
             </div>
           </div>
-          <div>
+          <div className={styles.available}>
             <p className={styles.bold}>$41.50</p>
             <p className={styles.muted}>available</p>
           </div>
@@ -60,7 +60,7 @@ const Dashboard = () => {
               <p className={styles.muted}>$100 total</p>
             </div>
           </div>
-          <div>
+          <div className={styles.available}>
             <p className={styles.bold}>$12.79</p>
             <p className={styles.muted}>available</p>
           </div>
@@ -75,7 +75,7 @@ const Dashboard = () => {
               <p className={styles.muted}>$150 total</p>
             </div>
           </div>
-          <div>
+          <div className={styles.available}>
             <p className={styles.bold}>$19.08</p>
             <p className={styles.muted}>available</p>
           </div>
@@ -90,7 +90,7 @@ const Dashboard = () => {
               <p className={styles.muted}>$80 total</p>
             </div>
           </div>
-          <div>
+          <div className={styles.available}>
             <p className={styles.bold}>$46.41</p>
             <p className={styles.muted}>available</p>
           </div>
@@ -105,7 +105,7 @@ const Dashboard = () => {
               <p className={styles.muted}>$60 total</p>
             </div>
           </div>
-          <div>
+          <div className={styles.available}>
             <p className={styles.bold}>$17.47</p>
             <p className={styles.muted}>available</p>
           </div>

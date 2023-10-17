@@ -1,27 +1,31 @@
-# React + TypeScript + Vite
+# Pocket Minder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project
 
-Currently, two official plugins are available:
+Nearly every month, I create a budget with detailed amounts for each category. At the beginning of the month, I have every intention of sticking to that budget, but I usually end up spending the nearly all of it by week 3 and then I spend the last week waiting for the month to be over, so that I can enjoy my life again! This is why I wanted to build Pocket Minder. I wanted to create a budgeting app that would help me break out of this negative pattern and encourage saving over spending.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Instead of thinking about how much money you have for a category over the entire month, Pocket Minder is designed to break down your monthly spending goals into daily targets that keep you on track throughout the month. You'll even earn awards for sticking to your budget and no-spending streaks!
 
-## Expanding the ESLint configuration
+**Note: This project is currently in development! Not all features have been completed yet.** Check out the [live site](https://pocket-minder.netlify.app) now to see my progress.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies
 
-- Configure the top-level `parserOptions` property like this:
+This project was built with functional components in React along with TypeScript for better type safety. I used a Firebase relational database to store user data and implement OAuth.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Figma
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+I began building this application by first outlining my vision for the project in Figma. [This Figma link](https://www.figma.com/file/4WeKv6ULC5oHXB4qNE1sZk/Pocket-Minder?type=design&node-id=0%3A1&mode=design&t=PcAPbtsqKhdih9Md-1) shows the original vision for the project and although most things remained the same, you'll notice some small changes in development. By outlining all pages and the general layout first, I had a clear blueprint to work from when building out features.
+
+## Planned Features
+
+- User authentication
+- CRUD functionality for budget categories
+- CRUD functionality for individual expenses
+- Progress page includes overall trends and awards
+- Filter feature on expense log
+- Search feature on expense log
+- Calendar with color-coded key
+
+## Lessons Learned
+
+Here, I'll be keeping a record of issues I ran into while developing this project and how I resolved them.
