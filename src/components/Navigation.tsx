@@ -60,6 +60,13 @@ const Navigation = () => {
         {isAuthenticated && isAuthenticatedNav}
         {!isAuthenticated && isNotAuthenticatedNav}
       </div>
+      <div className={styles.banner}>
+        <p>
+          Hey there! This site is under construction. Feel free to click around
+          and see what I'm working on, but please know that not all features are
+          complete yet!
+        </p>
+      </div>
     </header>
   );
 };
